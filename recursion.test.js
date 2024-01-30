@@ -68,7 +68,7 @@ function pow(x, n) {
     // }
 
     // return result;
-}
+}    
 
 console.log("Power(2,3): " , pow(2,3));
 console.log("Power(3,2): " , pow(3,2));

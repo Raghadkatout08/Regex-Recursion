@@ -16,4 +16,4 @@
 
 - Added ioEmail function(return: true, if the the sting end with io)
 
-- Added imagesSearcher function(return: all images in that text and return their names and extention in an array)
+- Added imagesSearcher function(return: all images in that text and return their names and extention in an array)   
