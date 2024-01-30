@@ -42,9 +42,10 @@ function pow(x, n) {
     }
 
 
-    //without recursion way
-    // let result = x;
-    // while (n > 1) {
+    //without recursion way   
+    // let result = x;   
+    // while (n > 1) 
+    // {
     //     result = x * result;
     //     n--;
     // }
