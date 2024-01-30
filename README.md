@@ -9,3 +9,12 @@
 - Added ioEmail function(return: true, if the the sting end with io)
 
 - Added imagesSearcher function(return: all images in that text and return their names and extention in an array)
+
+
+### Inside recursion.test.js:
+
+- Added the division function 
+
+- Added the power function using recursion 
+
+- Added the fibonacci function
