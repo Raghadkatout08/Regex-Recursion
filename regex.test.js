@@ -14,7 +14,8 @@ function capitalA(s) {
     }
     else {
         return false;
-    }
+        
+    }    
 }   
 console.log(capitalA("Hello world A"))
 console.log(capitalA("Hello world"))
