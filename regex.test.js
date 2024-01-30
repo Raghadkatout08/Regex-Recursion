@@ -15,10 +15,10 @@ function capitalA(s) {
     else {
         return false;
     }
-}
-// console.log(capitalA("Hello world A"))
-// console.log(capitalA("Hello world"))
-// console.log(capitalA("Hello world a"))
+}   
+console.log(capitalA("Hello world A"))
+console.log(capitalA("Hello world"))
+console.log(capitalA("Hello world a"))
 
 
 /* Write a function that take a string and return true if the the sting is following the emails pattern
