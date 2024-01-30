@@ -138,7 +138,7 @@ describe("Test division", () => {
         expect(division(10, 0)).toStrictEqual(0);
         expect(division(0, 10)).toStrictEqual(0);
 
-    })
+    })   
 });
 
 describe("Test pow", () => {
