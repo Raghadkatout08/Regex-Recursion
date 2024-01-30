@@ -2,7 +2,6 @@
 
 function division(number, dividedBy) {
     // Write you logic here.
-
     //recursion way
     if (dividedBy === 0) {
         return "Cannot divide by zero";
@@ -11,10 +10,7 @@ function division(number, dividedBy) {
     if (number < dividedBy) {
         return 0;
     }
-
     return 1 + division(number-dividedBy , dividedBy);
-
-    
 
     //without recursion way   
     // if (number == 0) {

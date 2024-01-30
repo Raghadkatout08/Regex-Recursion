@@ -6,6 +6,6 @@
 
 - Added the division function 
 
-- Added the pwer function using recursion 
+- Added the power function using recursion 
 
 - Added the fibonacci function 
