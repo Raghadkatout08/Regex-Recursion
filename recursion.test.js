@@ -2,24 +2,41 @@
 
 function division(number, dividedBy) {
     // Write you logic here.
-    if (number == 0) {
-        return 0;
-    }
-    if (dividedBy == 0) {
+
+    //recursion way
+    if (dividedBy === 0) {
         return "Cannot divide by zero";
     }
 
-    let dividResult = 0;
-    while (number >= dividedBy) {
-        number -= dividedBy;
-        dividResult++;
+    if (number < dividedBy) {
+        return 0;
     }
 
-    return dividResult;
+    return 1 + division(number-dividedBy , dividedBy);
+
+    
+
+    //without recursion way   
+    // if (number == 0) {
+    //     return 0;
+    // }
+    // if (dividedBy == 0) {
+    //     return "Cannot divide by zero";
+    // }
+
+    // let dividResult = 0;
+    // while (number >= dividedBy) {
+    //     number -= dividedBy;
+    //     dividResult++;
+    // }
+
+    // return dividResult;
 }
 
 console.log("division(13,2): " , division(13,2))
-console.log("division(13,0): " , division(13,0))
+console.log("division(10,2): " , division(10,2))
+console.log("division(10,0): " , division(10,0))
+console.log("division(0,10): " , division(0,10))
 
 
 /* Write a function that implement Math.pow(x,n) but using recursion
