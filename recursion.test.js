@@ -41,13 +41,12 @@ console.log("division(0,10): " , division(0,10))
 
 /* Write a function that implement Math.pow(x,n) but using recursion
 Example:
-pow(2,4) = 16
+pow(2,4) = 16   
 */
 
 
 function pow(x, n) {
     // Write you logic here.
-
     //recursion way
     if(n ===0)
     {
